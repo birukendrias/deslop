@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>deslop — plain rewrite</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <p class="brand">deslop</p>
+    <p class="tag">Strip AI tells from a draft. Runs in your browser.</p>
+  </header>
+  <main>
+    <label for="in">Input</label>
+    <textarea id="in" rows="12" placeholder="Paste text here…"></textarea>
+    <div class="row">
+      <button type="button" id="run">Deslop</button>
+      <button type="button" id="copy" class="ghost">Copy output</button>
+    </div>
+    <label for="out">Output</label>
+    <textarea id="out" rows="12" readonly></textarea>
+    <p class="note">v0.1 rule pass — not a full human rewrite. For deeper edits, use judgment.</p>
+  </main>
+  <footer>
+    <a href="https://github.com/biruktk/deslop">GitHub</a>
+    ·
+    <a href="https://iambiruk.vercel.app">IAMBIRUK</a>
+  </footer>
+  <script src="deslop.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "deslop",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npx --yes serve . -l 5174",
+    "build": "echo static"
+  }
+}
