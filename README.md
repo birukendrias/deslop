@@ -4,6 +4,10 @@ Paste AI-sounding text. Get a plainer draft.
 
 Client-side rules only for v0.1: banned words, em-dash cleanup, “not X but Y” softening, emoji strip. No account. No upload to a server.
 
+## Live
+
+https://deslop-green.vercel.app
+
 ## Run
 
 ```bash
